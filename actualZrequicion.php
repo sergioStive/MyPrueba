@@ -24,7 +24,7 @@ $USER=$_SESSION['User'];
 $NUSUARIO=$_SESSION['Nombre'];
 $BDA='aoacol_administra';
 $NT_req=tu('requisicion','id');
-
+echo "test";
 if(!empty($Acc) && function_exists($Acc)){eval($Acc.'();');     die();}
 
 function select2(){
